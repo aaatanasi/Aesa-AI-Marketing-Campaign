@@ -1,27 +1,172 @@
-# AESA Uvas Campaign
+# AESA Uvas Product Campaign Refresh
 
-This is the simplified reconstruction of the AESA portfolio site.
+A portfolio case study exploring how AI-assisted creative production can extend a luxury product collection into a cohesive editorial marketing campaign.
 
-## Files
+The project demonstrates how creative direction, prompt engineering, and front-end development can transform existing e-commerce product photography into a premium digital brand experience while preserving the integrity of the original products.
 
-- `index.html`
-- `styles.css`
-- `assets/`
+---
 
-## Add these images to the assets folder
+## Project Overview
 
-- `hero-4.jpg`
-- `before-3.jpg`
-- `before-4.jpg`
-- `before-1.jpg`
-- `hero-1.jpg`
-- `hero-2.jpg`
-- `hero-3.jpg`
-- `detail-2.jpg`
-- `pinterest.png`
-- `ig_story.png`
-- `newsletter.png`
+AESA has built a distinctive identity through its sculptural home décor and jewelry collections, alongside an established presence within luxury retail.
 
-## Preview
+Rather than redesigning the products, this project explores how a consistent visual language can elevate the online shopping experience across multiple digital channels.
 
-Open the folder in VS Code, right-click `index.html`, and choose **Open with Live Server**.
+The campaign focuses on:
+
+- Editorial product photography
+- Creative direction
+- Visual storytelling
+- AI-assisted production
+- Responsive web presentation
+
+---
+
+## Objectives
+
+- Extend static product photography into a complete marketing campaign
+- Maintain product accuracy throughout AI image generation
+- Develop a consistent editorial visual language
+- Create assets for multiple digital touchpoints
+- Demonstrate an end-to-end creative workflow
+
+---
+
+## Workflow
+
+### 1. Research
+
+Collected visual references and established the intended creative direction.
+
+### 2. Creative Direction
+
+Defined:
+
+- Color palette
+- Composition
+- Lighting
+- Materials
+- Editorial styling
+
+### 3. Prompt Development
+
+Developed structured prompts that preserved:
+
+- Product proportions
+- Materials
+- Reflections
+- Surface details
+- Overall craftsmanship
+
+while generating new environments and campaign imagery.
+
+### 4. Refinement
+
+Reviewed outputs and refined:
+
+- Composition
+- Lighting
+- Cropping
+- Material realism
+- Consistency across the campaign
+
+---
+
+## Marketing Rollout
+
+The visual system was designed to extend across:
+
+- Website
+- Email marketing
+- Instagram
+- Pinterest
+
+creating one consistent editorial campaign rather than isolated product images.
+
+---
+
+## Built With
+
+- Fuser Studio
+- Figma
+- HTML5
+- CSS3
+- Adobe Lightroom
+- Adobe Photoshop
+
+---
+
+## Repository Structure
+
+```
+.
+├── index.html
+├── styles.css
+├── README.md
+└── assets/
+```
+
+---
+
+## Key Skills Demonstrated
+
+- Creative Direction
+- AI Image Production
+- Prompt Engineering
+- Product Marketing
+- Luxury Brand Storytelling
+- Front-End Development
+- Responsive Layout Design
+- Campaign Strategy
+
+---
+
+## Live Project
+
+GitHub Pages
+
+```
+https://aaatanasi.github.io/Aesa-AI-Marketing-Campaign/
+```
+
+---
+
+## Author
+
+**Alex Atanas**
+
+Marketing Strategist • Creative Technologist • CRM & AI Automation
+
+```
+
+---
+
+I actually have one suggestion that I think will make this repository look even more polished.
+
+At the very top, immediately under the title, add a hero image:
+
+```markdown
+# AESA Uvas Product Campaign Refresh
+
+![Campaign Hero](assets/hero-4.jpg)
+
+A portfolio case study...
+```
+
+Then, after the "Workflow" section, add another image:
+
+```markdown
+## AI Workflow
+
+![Workflow](assets/fuser.png)
+```
+
+And near the end:
+
+```markdown
+## Final Campaign
+
+![Campaign](assets/hero-1.jpg)
+```
+
+Recruiters often skim READMEs, and a few well-placed visuals make the repository feel much more like a polished design case study than a code dump. Given the quality of your work, I think it's worth doing.
