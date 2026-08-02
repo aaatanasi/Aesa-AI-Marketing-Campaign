@@ -137,36 +137,3 @@ https://aaatanasi.github.io/Aesa-AI-Marketing-Campaign/
 
 Marketing Strategist • Creative Technologist • CRM & AI Automation
 
-```
-
----
-
-I actually have one suggestion that I think will make this repository look even more polished.
-
-At the very top, immediately under the title, add a hero image:
-
-```markdown
-# AESA Uvas Product Campaign Refresh
-
-![Campaign Hero](assets/hero-4.jpg)
-
-A portfolio case study...
-```
-
-Then, after the "Workflow" section, add another image:
-
-```markdown
-## AI Workflow
-
-![Workflow](assets/fuser.png)
-```
-
-And near the end:
-
-```markdown
-## Final Campaign
-
-![Campaign](assets/hero-1.jpg)
-```
-
-Recruiters often skim READMEs, and a few well-placed visuals make the repository feel much more like a polished design case study than a code dump. Given the quality of your work, I think it's worth doing.
