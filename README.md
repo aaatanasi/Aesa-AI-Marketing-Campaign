@@ -135,5 +135,4 @@ https://aaatanasi.github.io/Aesa-AI-Marketing-Campaign/
 
 **Alex Atanas**
 
-Marketing Strategist • Creative Technologist • CRM & AI Automation
-
+Marketing Strategist • Creative Technologist 
