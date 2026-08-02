@@ -1,224 +1,326 @@
-/* SIMPLE AESA CASE STUDY
-   Old art textbook / museum catalogue feeling
-*/
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-:root {
-  --ink: #111;
-  --muted: #777;
-  --rule: #dedede;
-  --page-padding: clamp(18px, 2.2vw, 42px);
-}
+  <title>AESA Uvas Product Campaign Refresh</title>
 
-* {
-  box-sizing: border-box;
-}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
-body {
-  margin: 0;
-  background: white;
-  color: var(--ink);
-  font-family: "IBM Plex Serif", Georgia, serif;
-  font-size: 18px;
-  line-height: 1.5;
-}
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-main {
-  width: 100%;
-  overflow: hidden;
-}
+<body>
+  <main>
 
-section {
-  padding: 70px var(--page-padding) 115px;
-}
+    <section class="hero">
+      <h1>AESA Uvas Product Campaign Refresh</h1>
 
-img {
-  display: block;
-  max-width: 100%;
-}
-
-h1,
-h2 {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-weight: 500;
-  line-height: 0.95;
-  letter-spacing: -0.02em;
-  text-transform: none;
-}
-
-h1 {
-  font-size: clamp(4rem, 8vw, 8rem);
-}
-
-h2 {
-  font-size: clamp(3rem, 5vw, 5rem);
-}
-
-h3 {
-  margin: 0 0 18px;
-  font-family: "IBM Plex Serif", Georgia, serif;
-  font-size: clamp(1.8rem, 2.5vw, 3rem);
-  font-weight: 400;
-  line-height: 1.1;
-}
-
-p {
-  margin: 0 0 26px;
-}
-
-.copy {
-  max-width: 1180px;
-  font-size: clamp(1rem, 1.35vw, 1.35rem);
-}
+      <img
+        src="assets/hero-4.jpg"
+        alt="AESA Uvas candleholder collection"
+      >
+    </section>
 
 
+    <section>
+      <h2>Challenge</h2>
 
-.gallery {
-  display: grid;
-  gap: 38px;
-  align-items: end;
-  margin-top: 70px;
-}
+      <div class="copy">
+        <p>
+          AESA has built a distinctive identity through its sculptural home décor and
+          jewelry collections, alongside an established presence within luxury retail.
+          This project explores how that identity could be translated into a more
+          editorial digital experience for today’s customer.
+        </p>
 
-.gallery figure {
-  margin: 0;
-  text-align: center;
-}
+        <p>
+          The objective was to develop a cohesive visual campaign extending across
+          all marketing channels while remaining true to the craftsmanship and
+          character of the brand and its products.
+        </p>
 
-.gallery figcaption {
-  margin-top: 28px;
-  color: var(--muted);
-  font-family: "IBM Plex Serif", Georgia, serif;
-  font-style: italic;
-  font-size: 1.1rem;
-}
+        <p>
+          Guided by a consistent visual language and executed with AI-assisted creative
+          production, the project reimagines how the collection could be experienced
+          online while enhancing the overall shopping journey.
+        </p>
+      </div>
+    </section>
 
-.before-gallery {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
 
-.before-gallery figure {
-  min-width: 0;
-}
+    <section>
+      <h2>Existing Experience (Before)</h2>
 
-.before-gallery img {
-  width: 100%;
-  height: 650px;
-  object-fit: contain;
-}
+      <div class="copy">
+        <p>
+          The existing product photography clearly documented the form, proportion,
+          and finish of each piece. The opportunity was to build additional visual
+          content around those assets so the collection could tell a broader story
+          across digital marketing channels.
+        </p>
+      </div>
 
-.framed-image {
-  border: 1px solid #e7e7e7;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
-}
+      <div class="gallery before-gallery">
+        <figure>
+          <img src="assets/before-3.jpg" alt="Original AESA product image">
+          <figcaption>(I)</figcaption>
+        </figure>
 
-.final-gallery {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
+        <figure>
+          <img
+            class="framed-image"
+            src="assets/before-4.jpg"
+            alt="Original AESA website presentation"
+          >
+          <figcaption>(II)</figcaption>
+        </figure>
 
-.final-gallery img {
-  width: 100%;
-  aspect-ratio: 3 / 4;
-}
+        <figure>
+          <img src="assets/before-1.jpg" alt="Original AESA product image">
+          <figcaption>(III)</figcaption>
+        </figure>
+      </div>
+    </section>
 
-.rollout-gallery {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  align-items: start;
-}
 
-.rollout-gallery img {
-  width: 100%;
-  height: 730px;
-  object-fit: contain;
-}
+    <section>
+      <h2>Research &amp; Creative Direction</h2>
 
-.simple-grid,
-.tools-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: clamp(45px, 7vw, 135px);
-  row-gap: 120px;
-  margin-top: 75px;
-}
+      <div class="copy">
+        <p>
+          The objective was not to redefine the collection, but to enhance the shopping
+          experience through a more cohesive visual presentation. The products already
+          possessed strong sculptural qualities and premium craftsmanship. The
+          opportunity was to communicate those qualities through a more intentional
+          digital visual system.
+        </p>
 
-.simple-grid-2,
-.tools-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  column-gap: clamp(45px, 7vw, 135px);
-  row-gap: 120px;
-  margin-top: 90 px;
-}
+        <p>
+          Several environments were tested, including darker colors, reflective metallic
+          surfaces, and higher-contrast compositions. While visually striking, these
+          directions often competed with the products or made the presentation feel
+          less authentic.
+        </p>
 
-.simple-grid article,
-.tools-grid article {
-  min-width: 0;
-}
+        <p>
+          A soft plaster-pink backdrop emerged as the strongest direction. Its warm
+          undertones complemented the bronze finish, enhanced the richness of the metal,
+          and allowed the reflections and craftsmanship to remain the focus.
+        </p>
 
-.simple-grid article p:last-child,
-.tools-grid article p:last-child {
-  max-width: 430px;
-  font-size: clamp(1rem, 1.3vw, 1.25rem);
-}
+        <p>
+          The final direction balanced the restraint of museum-style object photography
+          with the familiarity of a domestic surface. The pieces feel considered and
+          collectible while remaining natural enough to imagine on a table in a real
+          living space.
+        </p>
+      </div>
+    </section>
 
-.roman,
-figcaption {
-  font-family: "IBM Plex Serif", Georgia, serif;
-  font-style: italic;
-  color: #777;
-}
 
-.label {
-  margin-bottom: 24px;
-}
+    <section>
+      <h2>Design Principles</h2>
 
-.channel-label {
-  margin-top: 60px;
-}
+      <div class="simple-grid-2">
+        <article>
+          <p class="roman">(I)</p>
+          <h3>Product Integrity</h3>
+          <p>Preserve the form, scale, clustered metal details, and reflective finish of every piece.</p>
+        </article>
 
-.last-section {
-  padding-bottom: 180px;
-}
+        <article>
+          <p class="roman">(II)</p>
+          <h3>Editorial Restraint</h3>
+          <p>Use negative space and controlled composition so the product remains the focal point.</p>
+        </article>
 
-@media (max-width: 1050px) {
-  .final-gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+        <article>
+          <p class="roman">(III)</p>
+          <h3>Material Contrast</h3>
+          <p>Pair warm bronze with blush plaster and pale stone to emphasize texture and depth.</p>
+        </article>
 
-  .before-gallery,
-  .rollout-gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+        <article>
+          <p class="roman">(IV)</p>
+          <h3>Channel Consistency</h3>
+          <p>Maintain one visual language across web, email, Pinterest, and social media.</p>
+        </article>
+      </div>
+    </section>
 
-  .simple-grid,
-  .tools-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
 
-@media (max-width: 700px) {
-  section {
-    padding-top: 55px;
-    padding-bottom: 80px;
-  }
+    <section>
+      <h2>AI Workflow</h2>
 
-  .before-gallery,
-  .final-gallery,
-  .rollout-gallery,
-  .simple-grid,
-  .tools-grid {
-    grid-template-columns: 1fr;
-  }
+   
+      <figure>
+          <img src="assets/fuser.png" alt="Fuser Studio Workflow">
+           <figcaption>(I) Fuser Studio Workflow</figcaption>
+        </figure>
+  <br>
+  <br>
 
-  .before-gallery img {
-    height: 520px;
-  }
+      <div class="simple-grid-2">
+        <article>
+          <p class="roman">(I)</p>
+          <h3>Research</h3>
+          <p>Collected references and mapped the intended visual language in Figma.</p>
+        </article>
 
-  .rollout-gallery img {
-    height: auto;
-  }
+        <article>
+          <p class="roman">(II)</p>
+          <h3>Creative Direction</h3>
+          <p>Defined the palette, lighting, composition, and campaign applications.</p>
+        </article>
 
-  .simple-grid,
-  .tools-grid {
-    row-gap: 70px;
-  }
-}
+        <article>
+          <p class="roman">(III)</p>
+          <h3>Prompt Development</h3>
+          <p>Built prompts that preserved product identity while changing the setting.</p>
+        </article>
+
+        <article>
+          <p class="roman">(IV)</p>
+          <h3>Refinement</h3>
+          <p>Rejected inaccurate outputs and refined crop, tone, detail, and consistency.</p>
+        </article>
+      </div>
+    </section>
+
+
+
+
+    <section>
+      <h2>Final Campaign</h2>
+
+      <div class="gallery final-gallery">
+        <figure>
+          <img src="assets/hero-1.jpg" alt="Final campaign image">
+          <figcaption>(I)</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/hero-2.jpg" alt="Final campaign image">
+          <figcaption>(II)</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/hero-3.jpg" alt="Final campaign image">
+          <figcaption>(III)</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/detail-2.jpg" alt="Final campaign material detail">
+          <figcaption>(IV)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Marketing Rollout</h2>
+
+      <div class="copy">
+        <p class="label">Objective:</p>
+
+        <p>
+          Position the Uvas Collection as an editorial lifestyle experience rather
+          than a traditional product launch.
+        </p>
+
+        <p>
+          Every touchpoint uses consistent photography, typography, and color to
+          reinforce the collection’s identity.
+        </p>
+
+        <p class="label channel-label">Channel Strategy:</p>
+      </div>
+
+      <div class="gallery rollout-gallery">
+        <figure>
+          <img src="assets/pinterest.png" alt="Pinterest campaign mockup">
+          <figcaption>(I) Pinterest</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/ig_story.png" alt="Instagram Story campaign mockup">
+          <figcaption>(II) Instagram</figcaption>
+        </figure>
+
+        <figure>
+          <img src="assets/newsletter.png" alt="Newsletter campaign mockup">
+          <figcaption>(III) Newsletter</figcaption>
+        </figure>
+      </div>
+    </section>
+
+
+    <section>
+      <h2>Tools Used</h2>
+
+      <div class="tools-grid">
+        <article>
+          <p class="roman">(I)</p>
+          <h3>Fuser Studio</h3>
+          <p>AI-assisted image production</p>
+        </article>
+
+        <article>
+          <p class="roman">(II)</p>
+          <h3>Figma</h3>
+          <p>Layout, visual direction, and campaign mockups</p>
+        </article>
+
+        <article>
+          <p class="roman">(III)</p>
+          <h3>HTML</h3>
+          <p>Page structure</p>
+        </article>
+
+        <article>
+          <p class="roman">(IV)</p>
+          <h3>CSS</h3>
+          <p>Styling and responsive layout</p>
+        </article>
+
+        <article>
+          <p class="roman">(V)</p>
+          <h3>Adobe Lightroom</h3>
+          <p>Color and tone refinement</p>
+        </article>
+
+        <article>
+          <p class="roman">(VI)</p>
+          <h3>Adobe Photoshop</h3>
+          <p>Image editing and cleanup</p>
+        </article>
+      </div>
+    </section>
+
+
+    <section class="last-section">
+      <h2>Conclusion</h2>
+
+      <div class="copy">
+        <p>
+          This project demonstrates how a clear creative direction can be extended
+          through AI-assisted execution into a cohesive digital marketing campaign
+          while preserving the character of the original products.
+        </p>
+      </div>
+<br>
+        <figure>
+      <img src="assets/lifestyle-1.jpg" alt="lifestyle Aesa">
+    </figure>
+
+    </section>
+
+
+
+  </main>
+</body>
+</html>
